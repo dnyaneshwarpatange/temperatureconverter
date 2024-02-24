@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 209, 197);
+    
+}
+
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(165, 160, 152);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav h1{
+    background-color: transparent;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.temperature input{
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.temperature button{
+    height:29px;
+    width: 80px;
+}
+
+#converter{
+    border-radius: 10px;
+    background-color: rgb(179, 194, 189);
+
+}
